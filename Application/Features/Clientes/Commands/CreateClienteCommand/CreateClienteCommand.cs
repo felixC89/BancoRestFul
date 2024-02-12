@@ -1,6 +1,7 @@
 ﻿using Application.Wrappers;
 using MediatR;
 using System;
+using System.Runtime.CompilerServices;
 using System.Threading;
 using System.Threading.Tasks;
 
@@ -19,7 +20,8 @@ namespace Application.Features.Clientes.Commands.CreateClienteCommand
     {
         public async Task<Response<int>> Handle(CreateClienteCommand request, CancellationToken cancellationToken)
         {
-            throw new NotImplementedException();
+            await Task.Delay(2000, cancellationToken);
+            throw  new NotImplementedException();
         }
     }
 }

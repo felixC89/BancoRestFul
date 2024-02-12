@@ -1,19 +1,23 @@
 ﻿using FluentValidation.Results;
 using System;
 using System.Collections.Generic;
+using System.Runtime.Serialization;
 
 namespace Application.Exceptions
 {
-    public class ValidationExceptions: Exception
+    [Serializable]
+    public class ValidationException: Exception
     {
-        public ValidationExceptions(): base("Se han producido uno o más errores de validación") 
+        public List<string> Errors { get; private set; }
+        protected ValidationException(SerializationInfo info, StreamingContext context)
+        {
+            Console.WriteLine(info);
+        }
+        public ValidationException(): base("Se han producido uno o más errores de validación") 
         {
             Errors = new List<string>();        
         }
-
-        public List<string> Errors { get; private set; }
-
-        public ValidationExceptions(IEnumerable<ValidationFailure> failures): this()
+        public ValidationException(IEnumerable<ValidationFailure> failures): this()
         {
             foreach (var failure in failures)
             {
@@ -21,5 +25,6 @@ namespace Application.Exceptions
             }
             
         }
+
     }
 }

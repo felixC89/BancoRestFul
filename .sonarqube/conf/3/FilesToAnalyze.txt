@@ -1,0 +1,8 @@
+﻿C:\Users\Felix\source\repos\BancoRestFul\WebApi\Program.cs
+C:\Users\Felix\source\repos\BancoRestFul\WebApi\Startup.cs
+C:\Users\Felix\source\repos\BancoRestFul\WebApi\obj\Debug\net5.0\.NETCoreApp,Version=v5.0.AssemblyAttributes.cs
+C:\Users\Felix\source\repos\BancoRestFul\WebApi\obj\Debug\net5.0\WebApi.AssemblyInfo.cs
+C:\Users\Felix\source\repos\BancoRestFul\WebApi\obj\Debug\net5.0\WebApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Felix\source\repos\BancoRestFul\WebApi\appsettings.Development.json
+C:\Users\Felix\source\repos\BancoRestFul\WebApi\appsettings.json
+C:\Users\Felix\source\repos\BancoRestFul\WebApi\Properties\launchSettings.json

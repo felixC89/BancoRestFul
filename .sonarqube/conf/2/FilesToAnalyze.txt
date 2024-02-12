@@ -1,0 +1,7 @@
+﻿C:\Users\Felix\source\repos\BancoRestFul\Application\Behaviours\ValidationBehaviour.cs
+C:\Users\Felix\source\repos\BancoRestFul\Application\Exceptions\ValidationExceptions.cs
+C:\Users\Felix\source\repos\BancoRestFul\Application\Features\Clientes\Commands\CreateClienteCommand\CreateClienteCommand.cs
+C:\Users\Felix\source\repos\BancoRestFul\Application\Interfaces\IDateTimeService.cs
+C:\Users\Felix\source\repos\BancoRestFul\Application\Interfaces\IRepositoryAsync.cs
+C:\Users\Felix\source\repos\BancoRestFul\Application\ServiceExtensions.cs
+C:\Users\Felix\source\repos\BancoRestFul\Application\Wrappers\Response.cs
